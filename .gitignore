@@ -1,0 +1,37 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Private datasets and images
+data/
+img/
+
+# Training outputs and submissions
+runs/
+outputs/
+submissions/
+checkpoints/
+*.zip
+*.pt
+*.pth
+*.ckpt
+
+# Local configuration and secrets
+.env
+*.secret
+config.local.*
+requirements-lock.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
